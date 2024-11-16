@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elden Scroll VI : Construction & Co</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background: url('/Background.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 600px;
+      position: relative;
+    }
+    .cta-section {
+      background: url('/Background.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+    }
+  </style> 
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">LOGO HERE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Who We Are</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Our Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <!--Paarthurnax-->
+        </ul>
+        <div class="d-flex align-items-center">
+          <span class="text-light me-3">Call: +1 123 456 789</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section d-flex align-items-center justify-content-center">
+    <div class="text-center">
+      <h1 class="display-4">Lorem Ipsum is simply dummy text</h1>
+      <p class="lead">Printing and typesetting industry</p>
+      <a href="#" class="btn btn-warning btn-lg">Find Out More</a>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Choose Your Business Type</h2>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="/1.jpg" class="card-img-top" alt="Service">
+            <div class="card-body">
+              <h5 class="card-title">Service 1</h5>
+              <p class="card-text">Lorem Ipsum dummy text.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="/2.jpg" class="card-img-top" alt="Service">
+            <div class="card-body">
+              <h5 class="card-title">Service 2</h5>
+              <p class="card-text">Lorem Ipsum dummy text.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="/3.jpg" class="card-img-top" alt="Service">
+            <div class="card-body">
+              <h5 class="card-title">Service 3</h5>
+              <p class="card-text">Lorem Ipsum dummy text.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="/4.jpg" class="card-img-top" alt="Service">
+            <div class="card-body">
+              <h5 class="card-title">Service 4</h5>
+              <p class="card-text">Lorem Ipsum dummy text.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="cta-section py-5">
+    <div class="container">
+      <h2 class="display-6">Lorem Ipsum is dummy text</h2>
+      <a href="#" class="btn btn-warning btn-lg">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Project Section -->
+  <div class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Our Latest Projects</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="/5.jpg" class="img-fluid mb-3" alt="Project">
+        </div>
+        <div class="col-md-4">
+          <img src="/6.jpg" class="img-fluid mb-3" alt="Project">
+        </div>
+        <div class="col-md-4">
+          <img src="/7.jpg" class="img-fluid mb-3" alt="Project">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inquiry Form -->
+  <div class="py-5 text-white" style="background-color: #343a40;">
+    <div class="container">
+      <h2>Inquiry Now!</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+        </div>
+        <textarea class="form-control mb-3" rows="5" placeholder="Message"></textarea>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <style>
+    .blog-section {
+      padding: 60px 0;
+      background-color: #f8f9fa;
+    }
+    .blog-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .blog-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .blog-item .date {
+      position: absolute;
+      top: -20px; /* Slightly outside the image */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 8px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      white-space: nowrap; /* Ensure the date is on a single line */
+    }
+    .blog-item .content-box {
+      position: absolute;
+      bottom: -120px; /* Adjusted to move it down */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 25px;
+      border-radius: 8px;
+      width: 90%;
+      text-align: center; /* Center text and button */
+    }
+    .blog-item .content h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .blog-item .content p {
+      font-size: 14px;
+      color: #ddd;
+      margin-bottom: 20px;
+    }
+    .blog-item .btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 20px;
+      text-decoration: none;
+    }
+    .blog-item .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Latest Blog Section -->
+  <div class="container blog-section">
+    <h2 class="text-center mb-5">Latest Blogs</h2>
+    <div class="row">
+      <!-- Blog Item 1 -->
+      <div class="col-md-4 col-sm-12">
+        <div class="blog-item">
+          <img src="/8.jpg" alt="Blog 1">
+          <div class="date">November 16, 2024</div>
+          <div class="content-box">
+            <div class="content">
+              <h4>Blog One</h4>
+              <!--Paarthurnax-->
+              <p>Short description of the blog content goes here. This is a preview text...</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Item 2 -->
+      <div class="col-md-4 col-sm-12">
+        <div class="blog-item">
+          <img src="/9.jpg" alt="Blog 2">
+          <div class="date">November 14, 2024</div>
+          <div class="content-box">
+            <div class="content">
+              <h4>Blog Two</h4>
+              <p>Short description of the blog content goes here. This is a preview text...</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Item 3 -->
+      <div class="col-md-4 col-sm-12">
+        <div class="blog-item">
+          <img src="/10.jpg" alt="Blog 3">
+          <div class="date">November 12, 2024</div>
+          <div class="content-box">
+            <div class="content">
+              <h4>Blog Three</h4>
+              <p>Short description of the blog content goes here. This is a preview text...</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2024 Construction Company. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+      .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+      }
+      .footer .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .social-icons a {
+      font-size: 24px;
+      color: #333;
+      margin: 0 15px; /* Added more space between icons */
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+      .footer .social-icons a {
+        color: #fff;
+      }
+      .footer .social-icons a:hover {
+        color: #00aced;
+      }
+      .footer .menu, .footer .download-app, .footer .work-with-us, .footer .newsletter, .footer .contact-info {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+      }
+      .footer .download-app img {
+        width: 130px;
+        margin-right: 10px;
+      }
+      .footer .menu ul {
+        list-style: none;
+        padding: 0;
+      }
+      .footer .menu li {
+        margin: 5px 0;
+      }
+      .footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer .row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .footer .social-icons {
+        display: flex;
+        align-items: center;
+      }
+      .footer .contact-info {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo and Text -->
+          <div class="col-md-2 logo">
+            <div class="logo">Logo Here</div>
+            <p>Your text or description here.</p>
+          </div>
+  
+          <!-- Download App Section -->
+          <div class="col-md-2 download-app">
+            <h5>Download App</h5>
+            <a href="#">Play Store</a>
+            <a href="#">Apple Store</a>
+          </div>
+  
+          <!-- Main Menu -->
+          <div class="col-md-2 menu">
+            <h5>Main Menu</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">Our Skills</a></li>
+              <li><a href="#">Our Projects</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+  
+          <!-- Work With Us -->
+          <div class="col-md-2 work-with-us">
+            <h5>Work With Us</h5>
+            <ul>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+  
+          <!-- Newsletter Section -->
+          <div class="col-md-2 newsletter">
+            <h5>Newsletter</h5>
+            <form action="#" method="post">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+            </form>
+          </div>
+  
+  <!-- Stay Connected (Social Media) -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4 social-icons">
+        <!-- "Stay Connected" above the icons -->
+        <h5>Stay Connected</h5>
+        <div class="d-flex justify-content-center">
+
+          <a href="#" class="fab fa-facebook-f"></a>
+
+          <a href="#" class="fab fa-twitter"></a>
+
+          <a href="#" class="fab fa-linkedin-in"></a>
+
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <!-- Contact Info -->
+      <div class="row mt-4">
+        <div class="col-12 text-center contact-info">
+          <p>Contact us: <i class="fas fa-phone"></i> +123 456 7890 | <i class="fas fa-envelope"></i> email@example.com</p>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
